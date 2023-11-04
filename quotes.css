@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #feacc4;
+
 }
 
 .quote-box {
@@ -11,27 +13,34 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: #fdc6d6;
     width: 400px;
     height: auto;
     padding: 15px;
     border-radius: 8px;
-    border: 2px solid brown;
+    /* border: 2px solid #ff779e; */
     
 }
 
 .quote-head {
-    color: brown;
+    color: #f5347e;
 }
 
 .quotes {
-    color: rgb(195, 53, 53);
+    color: #f5347e;
     text-align: center;
     width: 80%;
 }
 
+.author {
+    color: #f5347e;
+    text-align: end;
+    width: 80%;
+}
+
 .btn {
-    background-color: brown;
-    color: beige;
+    background-color: #f5347e;
+    color: #fdc6d6;
     border: none;
     outline: none;
     padding: 10px 25px;
@@ -41,8 +50,8 @@ body {
 .btn:hover {
     cursor: pointer;
     background-color: transparent;
-    color: brown;
-    outline: 2px solid brown;
+    color: #f5347e;
+    outline: 2px solid #f5347e;
 }
     
     
